@@ -16,6 +16,7 @@ module.exports = {
         "path": "./blog"
       },
       __key: "blogs"
-    }
+    },
+    "gatsby-plugin-mdx"
   ]
 };
