@@ -6,6 +6,9 @@ import * as React from 'react'
 import Layout from '../components/layout'
 // section3-3: プラグインを使用して画像を挿入する
 import {StaticImage} from 'gatsby-plugin-image'
+import {
+  mainImage
+} from '../style/index.module.scss'
 
 // step2: IndexPageコンポーネントを定義する
 const IndexPage = () => {
@@ -13,7 +16,8 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <StaticImage
         alt="yoshi!!"
-        src="../images/genbaneko001.jpg" />
+        src="../images/genbaneko001.jpg"
+        className={mainImage} />
       <p>I'm making this by following the Gatsby Tutorial.</p>
     </Layout>
   )

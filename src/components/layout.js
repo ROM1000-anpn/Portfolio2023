@@ -29,6 +29,7 @@ const Layout = ({pageTitle, children}) => {
           <li className={navLinksItem}><Link to="/" className={navLinksItemText}>Home</Link></li>
           <li className={navLinksItem}><Link to="/about" className={navLinksItemText}>About</Link></li>
           <li className={navLinksItem}><Link to="/blog" className={navLinksItemText}>Blog</Link></li>
+          <li className={navLinksItem}><Link to="https://v4.gatsbyjs.com/docs/tutorial/" className={navLinksItemText}>Tutorial</Link></li>
         </ul>
       </nav>
       <main>
